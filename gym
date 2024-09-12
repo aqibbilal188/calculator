@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily fit</title>
+    <link rel="stylesheet" href="web.css"> <web.css>
+</head>
+<!-- body sec-->
+
+<body>
+    
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>DAILY </h1>
+        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to daily fit</h2>
+        <p>Get Fit, Stay Healthy</p>
+        <a href="#services" class="btn">Expkljloe Our Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We will be guiding you to create the best physique possible </p>
+    </section>
+    <!-- Services Section -->
+ <section id="services">
+    <h2>MONDAY (CHEST DAY)</h2>
+    <div class="service">
+        <h3>Personal Training</h3>
+        <p>Customized workout plans tailored to your goals.</p>
+    </div>
+    <div class="service">
+        <h3>Group Classes</h3>
+        <p>Join our vibrant community and get fit together.</p>
+    </div>
+    <div class="service">
+        <h3>Nutrition Counseling</h3>
+        <p>Healthy eating plans to complement your workouts.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us to start your fitness journey today!</p>
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Gym Name. All Rights Reserved.</p>
+</footer>
+
+   
+</body>
+</html>
