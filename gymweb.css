@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+/* body sec */
+
+body{
+    background-image: url('image/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
+}
+
+/* Header Styles */
+header {
+    
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #fff;
+    margin-left: 20px;
+}
+
+header nav ul {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    color: #f4f4f4;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    
+    text-decoration: azure;
+}
+
+/* Hero Section */
+.hero {
+    color: aliceblue;
+    text-align: center;   
+   
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    color: #fff;
+    
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    color: #f4f4f4;
+
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about p {
+    margin-top: 20px;
+}
+/* Services Section */
+#services {
+   
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center align text */
+}
+
+#services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #f7f3f3; /* Dark text color */
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #f5f2f2; /* Slightly lighter text color for subheadings */
+}
+
+.service p {
+    font-size: 16px;
+    color: #fdfdfd; /* Even lighter text color for paragraphs */
+    line-height: 1.5;
+    max-width: 600px; /* Max width for better readability */
+    margin: 0 auto; /* Center the content */
+}
